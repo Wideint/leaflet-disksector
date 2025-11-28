@@ -1,28 +1,28 @@
 {
-  "name": "leaflet-semicircle",
-  "version": "2.0.4",
-  "description": "Draw semicircles on Leaflet maps",
-  "main": "Semicircle.js",
+  "name": "leaflet-disksector",
+  "version": "2.1.0",
+  "description": "Draw disk sectors on Leaflet maps, forked from leaflet-semicircle",
+  "main": "DiskSector.js",
   "scripts": {
-    "test": "eslint Semicircle.js piechart/*.html piechart/*.js examples/* pacman/*.js pacman/*.html",
+    "test": "eslint DiskSector.js piechart/*.html piechart/*.js examples/* pacman/*.js pacman/*.html",
     "release": "mversion patch -m"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jieter/Leaflet-semicircle.git"
+    "url": "git+https://github.com/wideint/leaflet-disksector.git"
   },
   "keywords": [
     "leaflet",
     "map",
-    "semicircle",
+    "disksector",
     "piechart"
   ],
   "author": "Jan Pieter Waagmeester <jieter@jieter.nl>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jieter/Leaflet-semicircle/issues"
+    "url": "https://github.com/wideint/leaflet-disksector/issues"
   },
-  "homepage": "https://github.com/jieter/Leaflet-semicircle#readme",
+  "homepage": "https://github.com/wideint/leaflet-disksector#readme",
   "devDependencies": {
     "eslint": "^8.20.0",
     "eslint-plugin-html": "^7.1.0",
